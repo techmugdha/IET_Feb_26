@@ -32,7 +32,9 @@
             // Event coupled with Delegate
             //btn1.Click += new EventHandler(btn1_Click);
 
+
             Student std = new Student();
+            
             // Event coupled with Delegate
             // += coupling operator
             std._Pass += new ResultHandler(std.pass_student);
@@ -69,7 +71,7 @@
             get { return _Mark; }
         }
 
-        public void RaiseEvent(int mrk)
+        public void RaiseEvent(int mrk)// NotifyEvent
         {
             if (mrk > 40)
             { 
