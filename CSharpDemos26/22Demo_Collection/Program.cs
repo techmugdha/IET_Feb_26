@@ -187,7 +187,62 @@ namespace _22Demo_Collection
             //} 
             #endregion
 
-            
+            #region Hashtable : Key/Value pair
+            //Hashtable ht = new Hashtable();
+            //ht.Add(1,100);
+            //ht.Add(2, 200);
+            //ht.Add("3", true);
+            //ht.Add(4, emp1);
+
+            //#region ht.Keys
+            ////foreach (object key in ht.Keys)
+            ////{
+            ////    Console.WriteLine(key);
+            ////} 
+            //#endregion
+
+            //#region ht.Values Property
+            ////foreach (object value in ht.Values)
+            ////{
+            ////    if (value is int)
+            ////    {
+            ////        int j = Convert.ToInt32(value);
+            ////        Console.WriteLine(j);
+            ////    }
+            ////    if (value is bool)
+            ////    {
+            ////        bool b = Convert.ToBoolean(value);
+            ////    }
+            ////    if (value is Emp) 
+            ////    {
+            ////        Emp emp = value as Emp;
+            ////        emp.GetEmpDetails();
+            ////    }
+            ////} 
+            //#endregion
+
+            //foreach (object key in ht.Keys)
+            //{
+            //    object obj = ht[key];
+
+            //    if (obj is int)
+            //    {
+            //        int j = Convert.ToInt32(obj);
+            //        Console.WriteLine($"Key: {key}, Value: {j}");
+            //    }
+            //    if (obj is bool)
+            //    {
+            //        bool b = Convert.ToBoolean(obj);
+            //        Console.WriteLine($"Key: {key}, Value: {b}");
+            //    }
+            //    if (obj is Emp)
+            //    {
+            //        Emp emp = obj as Emp;
+            //        Console.Write($"Key: {key}, Value: ");
+            //        emp.GetEmpDetails();
+            //    }
+            //} 
+            #endregion
         }
     }
 
