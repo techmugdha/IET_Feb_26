@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36Demo_MyCustomAttribute", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37Demo_MyORM", "37Demo_MyORM\37Demo_MyORM.csproj", "{52E4DAEA-D251-4A1F-9079-F70D0F41D900}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38Demo_CSharpFeatures", "38Demo_CSharpFeatures\38Demo_CSharpFeatures.csproj", "{8ACA9D08-23CC-40CA-A41E-1E5978E39EAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{52E4DAEA-D251-4A1F-9079-F70D0F41D900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52E4DAEA-D251-4A1F-9079-F70D0F41D900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52E4DAEA-D251-4A1F-9079-F70D0F41D900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ACA9D08-23CC-40CA-A41E-1E5978E39EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ACA9D08-23CC-40CA-A41E-1E5978E39EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ACA9D08-23CC-40CA-A41E-1E5978E39EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ACA9D08-23CC-40CA-A41E-1E5978E39EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
