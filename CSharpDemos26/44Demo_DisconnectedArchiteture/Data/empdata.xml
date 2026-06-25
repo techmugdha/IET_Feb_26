@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Emp>
+    <Id>1</Id>
+    <Name>Hugh Jackman</Name>
+    <Addres>NYC</Addres>
+  </Emp>
+  <Emp>
+    <Id>2</Id>
+    <Name>Tom Holland</Name>
+    <Addres>LA</Addres>
+  </Emp>
+  <Emp>
+    <Id>4</Id>
+    <Name>IronMan</Name>
+    <Addres>Pune</Addres>
+  </Emp>
+</NewDataSet>
