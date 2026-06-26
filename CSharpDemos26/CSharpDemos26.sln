@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "44Demo_DisconnectedArchitet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "45Demo_EntityFramework", "45Demo_EntityFramework\45Demo_EntityFramework.csproj", "{1D78B801-5DD5-48BD-AB38-C04794F6E1E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "46Demo_Threading", "46Demo_Threading\46Demo_Threading.csproj", "{A3D55EAA-2DED-4CCF-B220-92424B560C16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +281,10 @@ Global
 		{1D78B801-5DD5-48BD-AB38-C04794F6E1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D78B801-5DD5-48BD-AB38-C04794F6E1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D78B801-5DD5-48BD-AB38-C04794F6E1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D55EAA-2DED-4CCF-B220-92424B560C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D55EAA-2DED-4CCF-B220-92424B560C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D55EAA-2DED-4CCF-B220-92424B560C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D55EAA-2DED-4CCF-B220-92424B560C16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
