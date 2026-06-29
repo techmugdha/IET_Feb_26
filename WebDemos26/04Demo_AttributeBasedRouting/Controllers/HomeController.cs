@@ -6,7 +6,7 @@ namespace _04Demo_AttributeBasedRouting.Controllers
     public class HomeController : Controller
     {
         [Route("")]  // "/"
-        [Route("Index")]// "/Ho                                                                                                                                                                                                                    me/Index"
+        [Route("Index")]// "/Home/Index"
         //[Route("~/")] // "/Home"
         public IActionResult Index()
         {

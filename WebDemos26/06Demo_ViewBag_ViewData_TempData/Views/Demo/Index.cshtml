@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Demo Page";
+}
+
+<h1>Index : Demo</h1>
+
+<hr />
+
+<h1>@ViewBag.Title</h1>
+<h1>@ViewBag.Number</h1>
+<h1>@ViewData["fullname"]</h1>
+<h1>@ViewBag.fullname</h1>
+<hr />
+<ol>
+@foreach (string nm in ViewBag.Names)
+{
+    <li>@nm</li>
+}
+</ol>
+
+<hr />
+<ul>
+    @{
+        var nos = ViewData["Numbers"] as int[];
+
+        @foreach (int num in nos)
+        {
+            <li>@num</li>   
+        }
+    }
+</ul>

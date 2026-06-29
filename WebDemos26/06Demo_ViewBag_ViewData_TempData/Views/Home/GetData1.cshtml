@@ -1,0 +1,58 @@
+﻿@model System.Collections.ArrayList
+
+<div class="container text-center table-responsive">
+     @{
+         @foreach (var item in Model)
+        {
+            @if (item is List<Emp>)
+            {
+                List<Emp> allEmps = item as List<Emp>;
+                <h2>Emp Data: </h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Address</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (Emp emp in allEmps)
+                            {
+                                <tr>
+                                    <td>@emp.Id</td>
+                                    <td>@emp.Name</td>
+                                    <td>@emp.Address</td>
+                                </tr>
+                            }
+
+                    </tbody>
+                </table>
+            }
+            @if (item is List<Customer>)
+            {
+                List<Customer> customers = item as List<Customer>;
+                <h2>Customer Data: </h2>
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>CId</th>
+                            <th>CName</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (Customer cust in customers)
+                        {
+                            <tr>
+                                <td>@cust.CId</td>
+                                <td>@cust.CName</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        }
+    }
+</div>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36915.13 d17.14
+VisualStudioVersion = 17.14.36915.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Demo_MVCTemplate", "01Demo_MVCTemplate\01Demo_MVCTemplate.csproj", "{FAB91BD6-91D5-49F7-9AAB-CD435BD1B12E}"
 EndProject
@@ -10,6 +10,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Demo_BasicApplication", "03Demo_BasicApplication\03Demo_BasicApplication.csproj", "{E40356C4-90AF-4949-B2BE-CB6625D0F843}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04Demo_AttributeBasedRouting", "04Demo_AttributeBasedRouting\04Demo_AttributeBasedRouting.csproj", "{4A04ACF3-E0D5-434D-A03D-8D476F6048F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05Demo_ReturnTypesOfActionMethods", "05Demo_ReturnTypesOfActionMethods\05Demo_ReturnTypesOfActionMethods.csproj", "{DBCB8EFC-052F-48D7-BADE-B4428998C423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06Demo_ViewBag_ViewData_TempData", "06Demo_ViewBag_ViewData_TempData\06Demo_ViewBag_ViewData_TempData.csproj", "{0EBF363D-BD2F-42FC-A5FF-DFA8F43B0FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07Demo_LayoutPages_BootStrap_PartialViews", "07Demo_LayoutPages_BootStrap_PartialViews\07Demo_LayoutPages_BootStrap_PartialViews.csproj", "{EB8A47AC-CC3A-488D-A4E9-B4385D87723B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{4A04ACF3-E0D5-434D-A03D-8D476F6048F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A04ACF3-E0D5-434D-A03D-8D476F6048F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A04ACF3-E0D5-434D-A03D-8D476F6048F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCB8EFC-052F-48D7-BADE-B4428998C423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCB8EFC-052F-48D7-BADE-B4428998C423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCB8EFC-052F-48D7-BADE-B4428998C423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCB8EFC-052F-48D7-BADE-B4428998C423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBF363D-BD2F-42FC-A5FF-DFA8F43B0FC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBF363D-BD2F-42FC-A5FF-DFA8F43B0FC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBF363D-BD2F-42FC-A5FF-DFA8F43B0FC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBF363D-BD2F-42FC-A5FF-DFA8F43B0FC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8A47AC-CC3A-488D-A4E9-B4385D87723B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8A47AC-CC3A-488D-A4E9-B4385D87723B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8A47AC-CC3A-488D-A4E9-B4385D87723B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8A47AC-CC3A-488D-A4E9-B4385D87723B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<_06Demo_ViewBag_ViewData_TempData.Models.Emp>
+
+@{
+    //  Directives - top od cshtml page
+        //@model directive resolves dynamic Model property for this current Page
+        //This directive can be also used for strongly-typed views
+}
+@{
+    ViewData["Title"] = "GetEmpData Page";
+}
+
+<div class="container text-center table-responsive">
+@{
+     // Razor Syntax Block
+        //  for (int i = 1; i <= 5; i++)
+        // {
+        //     <p> Id: @i</p>
+        // }
+       
+ }
+
+    @* @for (int i = 1; i < 5; i++)
+    {
+        <p>@i</p>
+    } *@
+
+   <table class="table table-striped">
+       <thead>
+           <tr>
+               <th>Id</th>
+               <th>Name</th>
+               <th>Address</th>
+           </tr>
+       </thead>
+       <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.Id</td>
+                    <td>@emp.Name</td>
+                    <td>@emp.Address</td>
+                </tr>
+            }
+       </tbody>
+   </table>
+
+</div>
