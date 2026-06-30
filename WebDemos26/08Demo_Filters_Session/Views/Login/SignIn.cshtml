@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "SignIn Page";
+}
+
+<div class="container table-responsive">
+    <h1>Sign In Here:</h1>
+    <form action="/Login/SignIn" method="post">
+        <table>
+            <tr>
+                <td>UserName</td>
+                <td>
+                    <input type="text" name="UserName" />
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="Password" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button>Login</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="color: red">
+                    @ViewBag.ErrorMessage
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

@@ -1,0 +1,20 @@
+﻿@model _09Demo_Connected_EF_WebAPI.Models.Product
+
+@{
+    ViewData["Title"] = "ProductDetails";
+}
+
+<h1>ProductDetails</h1>
+
+
+<div class="card" style="width: 18rem;">
+    <img src="@(Model.ProductImage)" asp-append-version="true" class="card-img-top" alt="product image">
+    <div class="card-body">
+        <h5 class="card-title">@Model.ProductName</h5>
+        <h5 class="card-title">@Model.Price</h5>
+
+        <p class="card-text">@Model.ProductDescription</p>
+        <a href="/Product/ProductDetails/@Model.Id" class="btn btn-primary">Show Details</a>
+    </div>
+</div>
+

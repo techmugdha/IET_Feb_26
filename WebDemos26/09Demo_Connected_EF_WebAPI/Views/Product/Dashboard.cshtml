@@ -1,0 +1,21 @@
+﻿@model _09Demo_Connected_EF_WebAPI.Models.ProductViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1 class="text-bg-secondary">Product Data :</h1>
+@foreach (var category in Model.allCategories)
+{
+ <a href="/Product/Dashboard/@category.CategoryId">@category.CategoryName</a>   
+}
+<div class="container">
+    <div class="row p-1">
+        @{
+            @foreach (var product in Model.allProducts)
+            {
+                <partial name="_ProductPartialView" model="product" />
+            }
+        }
+    </div>
+</div>
+
